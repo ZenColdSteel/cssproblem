@@ -1,0 +1,52 @@
+*{margin: 0;
+padding: 0;}
+
+li :nth-child(odd) {
+    background-color: black;
+  
+}
+
+li :nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+ul :nth-child(odd) {
+    background-color: black;
+    
+  
+}
+
+ul :nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    
+
+}
+ul:nth-child(even){
+    flex-direction: row-reverse; 
+    display: flex;
+    justify-content: flex-end
+}
+
+
+body{
+    background-color: brown
+
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    height:150px;
+    width: 150px;  
+
+    
+}
+ul{
+    display: flex;
+    
+}
+/* * {
+    align-items: center;
+    justify-content: center;
+} */
